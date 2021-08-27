@@ -1,0 +1,455 @@
+{
+  "contractName": "IProxyCreationCallback",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "internalType": "contract GnosisSafeProxy",
+          "name": "proxy",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "_mastercopy",
+          "type": "address"
+        },
+        {
+          "internalType": "bytes",
+          "name": "initializer",
+          "type": "bytes"
+        },
+        {
+          "internalType": "uint256",
+          "name": "saltNonce",
+          "type": "uint256"
+        }
+      ],
+      "name": "proxyCreated",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.17+commit.d19bba13\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":false,\"inputs\":[{\"internalType\":\"contract GnosisSafeProxy\",\"name\":\"proxy\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"_mastercopy\",\"type\":\"address\"},{\"internalType\":\"bytes\",\"name\":\"initializer\",\"type\":\"bytes\"},{\"internalType\":\"uint256\",\"name\":\"saltNonce\",\"type\":\"uint256\"}],\"name\":\"proxyCreated\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"project:/contracts/proxies/IProxyCreationCallback.sol\":\"IProxyCreationCallback\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/proxies/GnosisSafeProxy.sol\":{\"keccak256\":\"0x8ee43b4e36cdb2798fe1ca82c6a2f5b1f5d557db07ce37862836926e0af8b931\",\"urls\":[\"bzz-raw://c2af627ea73c295292eeef084421dff9b64e014b10ffe5802af9f5cbadcd068b\",\"dweb:/ipfs/QmYvwyqXx7Qh9KtXxDSk91f4BzWetHq6Hexn3mj16FiPhu\"]},\"project:/contracts/proxies/IProxyCreationCallback.sol\":{\"keccak256\":\"0xded06c2e562545ca79d50932e82373e00b86bf08f4e3dd24c1269e3282b9965c\",\"urls\":[\"bzz-raw://37caf5b4272a9f1d9b5cdfc66e72640a445f7da9254ded7e6840d2b45c3b2a21\",\"dweb:/ipfs/QmcoAgDuwnKWj1sMbp51AAMnupmgcQNxS9Gsxvz2ntaRSM\"]}},\"version\":1}",
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "sourceMap": "",
+  "deployedSourceMap": "",
+  "source": "pragma solidity ^0.5.3;\nimport \"./GnosisSafeProxy.sol\";\n\ninterface IProxyCreationCallback {\n    function proxyCreated(GnosisSafeProxy proxy, address _mastercopy, bytes calldata initializer, uint256 saltNonce) external;\n}\n",
+  "sourcePath": "C:\\Users\\Caleb\\Desktop\\school\\dapp2\\dhruvin\\safe-modules\\allowances\\contracts\\proxies\\IProxyCreationCallback.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/proxies/IProxyCreationCallback.sol",
+    "exportedSymbols": {
+      "IProxyCreationCallback": [
+        1743
+      ]
+    },
+    "id": 1744,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1730,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".3"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:13"
+      },
+      {
+        "absolutePath": "project:/contracts/proxies/GnosisSafeProxy.sol",
+        "file": "./GnosisSafeProxy.sol",
+        "id": 1731,
+        "nodeType": "ImportDirective",
+        "scope": 1744,
+        "sourceUnit": 1512,
+        "src": "24:31:13",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "documentation": null,
+        "fullyImplemented": false,
+        "id": 1743,
+        "linearizedBaseContracts": [
+          1743
+        ],
+        "name": "IProxyCreationCallback",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": null,
+            "documentation": null,
+            "id": 1742,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "proxyCreated",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 1740,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 1733,
+                  "name": "proxy",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1742,
+                  "src": "118:21:13",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_contract$_GnosisSafeProxy_$1511",
+                    "typeString": "contract GnosisSafeProxy"
+                  },
+                  "typeName": {
+                    "contractScope": null,
+                    "id": 1732,
+                    "name": "GnosisSafeProxy",
+                    "nodeType": "UserDefinedTypeName",
+                    "referencedDeclaration": 1511,
+                    "src": "118:15:13",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_contract$_GnosisSafeProxy_$1511",
+                      "typeString": "contract GnosisSafeProxy"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 1735,
+                  "name": "_mastercopy",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1742,
+                  "src": "141:19:13",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 1734,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "141:7:13",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 1737,
+                  "name": "initializer",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1742,
+                  "src": "162:26:13",
+                  "stateVariable": false,
+                  "storageLocation": "calldata",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes_calldata_ptr",
+                    "typeString": "bytes"
+                  },
+                  "typeName": {
+                    "id": 1736,
+                    "name": "bytes",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "162:5:13",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes_storage_ptr",
+                      "typeString": "bytes"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 1739,
+                  "name": "saltNonce",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1742,
+                  "src": "190:17:13",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 1738,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "190:7:13",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "117:91:13"
+            },
+            "returnParameters": {
+              "id": 1741,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "217:0:13"
+            },
+            "scope": 1743,
+            "src": "96:122:13",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "external"
+          }
+        ],
+        "scope": 1744,
+        "src": "57:163:13"
+      }
+    ],
+    "src": "0:221:13"
+  },
+  "legacyAST": {
+    "attributes": {
+      "absolutePath": "project:/contracts/proxies/IProxyCreationCallback.sol",
+      "exportedSymbols": {
+        "IProxyCreationCallback": [
+          1743
+        ]
+      }
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            "^",
+            "0.5",
+            ".3"
+          ]
+        },
+        "id": 1730,
+        "name": "PragmaDirective",
+        "src": "0:23:13"
+      },
+      {
+        "attributes": {
+          "SourceUnit": 1512,
+          "absolutePath": "project:/contracts/proxies/GnosisSafeProxy.sol",
+          "file": "./GnosisSafeProxy.sol",
+          "scope": 1744,
+          "symbolAliases": [
+            null
+          ],
+          "unitAlias": ""
+        },
+        "id": 1731,
+        "name": "ImportDirective",
+        "src": "24:31:13"
+      },
+      {
+        "attributes": {
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "interface",
+          "documentation": null,
+          "fullyImplemented": false,
+          "linearizedBaseContracts": [
+            1743
+          ],
+          "name": "IProxyCreationCallback",
+          "scope": 1744
+        },
+        "children": [
+          {
+            "attributes": {
+              "body": null,
+              "documentation": null,
+              "implemented": false,
+              "isConstructor": false,
+              "kind": "function",
+              "modifiers": [
+                null
+              ],
+              "name": "proxyCreated",
+              "scope": 1743,
+              "stateMutability": "nonpayable",
+              "superFunction": null,
+              "visibility": "external"
+            },
+            "children": [
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "proxy",
+                      "scope": 1742,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "contract GnosisSafeProxy",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "contractScope": null,
+                          "name": "GnosisSafeProxy",
+                          "referencedDeclaration": 1511,
+                          "type": "contract GnosisSafeProxy"
+                        },
+                        "id": 1732,
+                        "name": "UserDefinedTypeName",
+                        "src": "118:15:13"
+                      }
+                    ],
+                    "id": 1733,
+                    "name": "VariableDeclaration",
+                    "src": "118:21:13"
+                  },
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "_mastercopy",
+                      "scope": 1742,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "address",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "address",
+                          "stateMutability": "nonpayable",
+                          "type": "address"
+                        },
+                        "id": 1734,
+                        "name": "ElementaryTypeName",
+                        "src": "141:7:13"
+                      }
+                    ],
+                    "id": 1735,
+                    "name": "VariableDeclaration",
+                    "src": "141:19:13"
+                  },
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "initializer",
+                      "scope": 1742,
+                      "stateVariable": false,
+                      "storageLocation": "calldata",
+                      "type": "bytes",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "bytes",
+                          "type": "bytes"
+                        },
+                        "id": 1736,
+                        "name": "ElementaryTypeName",
+                        "src": "162:5:13"
+                      }
+                    ],
+                    "id": 1737,
+                    "name": "VariableDeclaration",
+                    "src": "162:26:13"
+                  },
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "saltNonce",
+                      "scope": 1742,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "uint256",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "uint256",
+                          "type": "uint256"
+                        },
+                        "id": 1738,
+                        "name": "ElementaryTypeName",
+                        "src": "190:7:13"
+                      }
+                    ],
+                    "id": 1739,
+                    "name": "VariableDeclaration",
+                    "src": "190:17:13"
+                  }
+                ],
+                "id": 1740,
+                "name": "ParameterList",
+                "src": "117:91:13"
+              },
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 1741,
+                "name": "ParameterList",
+                "src": "217:0:13"
+              }
+            ],
+            "id": 1742,
+            "name": "FunctionDefinition",
+            "src": "96:122:13"
+          }
+        ],
+        "id": 1743,
+        "name": "ContractDefinition",
+        "src": "57:163:13"
+      }
+    ],
+    "id": 1744,
+    "name": "SourceUnit",
+    "src": "0:221:13"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.17+commit.d19bba13.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.2",
+  "updatedAt": "2021-08-26T04:57:05.127Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}

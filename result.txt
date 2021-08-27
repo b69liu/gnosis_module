@@ -1,0 +1,60 @@
+rinkeby [ '0xf239D99943A137AFf8423DED9E4EB461fc9F875e',
+  '0xD71Ef05fB5B44DA7060D4b830b8102398f8CF122',
+  '0xAA77e236E8D0bF778779c3029B486f164f79B242',
+  '0x97EF28681Fb7c41e2E81E823Ca785dC5EF81Dc38',
+  '0x32BB1Ea5D3d5C6E55ccDfF73abe7BA6651e2d107',
+  '0xAA51899AcBd44Bd4855930b0E549cA8066a50a52',
+  '0x921F964B5e10948560EF4AE25f69359FFF5d2a9d',
+  '0x78eD7f00156Ad5790B99B25A2b11Ca727FB48F03',
+  '0x3184173D864918Ae3b7C420115dA2f2d9a1A60dF',
+  '0x59bC809f433d40aC927d23f3b49692773a052632' ]
+==========================================
+0xe4CBcE8d7588DEe53428AA90720f601Ca8755e5f 0xA35427a2172FF9D5C2c2BCfee9c11Af3cB8a485C
+==========================================
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:           0.0546025 ETH
+
+
+
+
+
+
+
+
+
+
+
+
+
+2_deploy_my_permission_module.js
+================================
+
+   Replacing 'GnosisSafeProxyFactory'
+   ----------------------------------
+   > transaction hash:    0xcf9b64979b81b9742ab1f88d459296695f725a51c2682c5d62a4683e6f4e8e6c
+   > Blocks: 0            Seconds: 8
+   > contract address:    0x7187e633FE99c372f25F4B37eB509ecAa1b954F6
+   > block number:        9180810
+   > block timestamp:     1629953846
+   > account:             0xf239D99943A137AFf8423DED9E4EB461fc9F875e
+   > balance:             15.343657643843708482
+   > gas used:            905065 (0xdcf69)
+   > gas price:           25 gwei
+   > value sent:          0 ETH
+   > total cost:          0.022626625 ETH
+
+
+   Replacing 'MyPermissionModule'
+   ------------------------------
+   > transaction hash:    0xce4b5c717646bf3d3888eb64887282c02619691898335132a47a47bfd2b504d6
+   > Blocks: 0            Seconds: 12
+   > contract address:    0x40E4e7cb708CBeF54a896B22AA5bd52eF245653f
+   > block number:        9180811
+   > block timestamp:     1629953861
+   > account:             0xf239D99943A137AFf8423DED9E4EB461fc9F875e
+   > balance:             15.311681768843708482
+   > gas used:            1279035 (0x13843b)
+   > gas price:           25 gwei
+   > value sent:          0 ETH
+   > total cost:          0.031975875 ETH

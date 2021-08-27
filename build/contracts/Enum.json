@@ -1,0 +1,195 @@
+{
+  "contractName": "Enum",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.7.4+commit.3f05b770\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"author\":\"Richard Meissner - <richard@gnosis.pm>\",\"kind\":\"dev\",\"methods\":{},\"title\":\"Enum - Collection of enums\",\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/Enum.sol\":\"Enum\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/Enum.sol\":{\"keccak256\":\"0x1e11e98c9627ad8acc5852aacf9ee07350aca8524a253517a0253016ba6138c9\",\"license\":\"LGPL-3.0-only\",\"urls\":[\"bzz-raw://88a72cb96472c48452e61a9ccf061e16e4efbdf5b10476f0213d238decb59169\",\"dweb:/ipfs/QmTTVM4RkaBWHUqXKLntxg4qbsNqyHPfmBcGg2caPQirM8\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea264697066735822122075cd6b8a2d0066dc9d8498c49932151c57c1b9087aa2eb38e832e13d874488ff64736f6c63430007040033",
+  "deployedBytecode": "0x6080604052600080fdfea264697066735822122075cd6b8a2d0066dc9d8498c49932151c57c1b9087aa2eb38e832e13d874488ff64736f6c63430007040033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "169:84:1:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "169:84:1:-:0;;;;;",
+  "source": "// SPDX-License-Identifier: LGPL-3.0-only\r\npragma solidity >=0.7.0 <0.8.0;\r\n\r\n/// @title Enum - Collection of enums\r\n/// @author Richard Meissner - <richard@gnosis.pm>\r\ncontract Enum {\r\n    enum Operation {\r\n        Call,\r\n        DelegateCall\r\n    }\r\n}\r\n",
+  "sourcePath": "C:\\Users\\Caleb\\Desktop\\school\\dapp2\\dhruvin\\safe-modules\\allowances\\contracts\\Enum.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/Enum.sol",
+    "exportedSymbols": {
+      "Enum": [
+        1435
+      ]
+    },
+    "id": 1436,
+    "license": "LGPL-3.0-only",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1430,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.7",
+          ".0",
+          "<",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "43:31:1"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": {
+          "id": 1431,
+          "nodeType": "StructuredDocumentation",
+          "src": "78:91:1",
+          "text": "@title Enum - Collection of enums\n @author Richard Meissner - <richard@gnosis.pm>"
+        },
+        "fullyImplemented": true,
+        "id": 1435,
+        "linearizedBaseContracts": [
+          1435
+        ],
+        "name": "Enum",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "canonicalName": "Enum.Operation",
+            "id": 1434,
+            "members": [
+              {
+                "id": 1432,
+                "name": "Call",
+                "nodeType": "EnumValue",
+                "src": "216:4:1"
+              },
+              {
+                "id": 1433,
+                "name": "DelegateCall",
+                "nodeType": "EnumValue",
+                "src": "231:12:1"
+              }
+            ],
+            "name": "Operation",
+            "nodeType": "EnumDefinition",
+            "src": "190:60:1"
+          }
+        ],
+        "scope": 1436,
+        "src": "169:84:1"
+      }
+    ],
+    "src": "43:212:1"
+  },
+  "legacyAST": {
+    "attributes": {
+      "absolutePath": "project:/contracts/Enum.sol",
+      "exportedSymbols": {
+        "Enum": [
+          1435
+        ]
+      },
+      "license": "LGPL-3.0-only"
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            ">=",
+            "0.7",
+            ".0",
+            "<",
+            "0.8",
+            ".0"
+          ]
+        },
+        "id": 1430,
+        "name": "PragmaDirective",
+        "src": "43:31:1"
+      },
+      {
+        "attributes": {
+          "abstract": false,
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "contract",
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            1435
+          ],
+          "name": "Enum",
+          "scope": 1436
+        },
+        "children": [
+          {
+            "attributes": {
+              "text": "@title Enum - Collection of enums\n @author Richard Meissner - <richard@gnosis.pm>"
+            },
+            "id": 1431,
+            "name": "StructuredDocumentation",
+            "src": "78:91:1"
+          },
+          {
+            "attributes": {
+              "canonicalName": "Enum.Operation",
+              "name": "Operation"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "name": "Call"
+                },
+                "id": 1432,
+                "name": "EnumValue",
+                "src": "216:4:1"
+              },
+              {
+                "attributes": {
+                  "name": "DelegateCall"
+                },
+                "id": 1433,
+                "name": "EnumValue",
+                "src": "231:12:1"
+              }
+            ],
+            "id": 1434,
+            "name": "EnumDefinition",
+            "src": "190:60:1"
+          }
+        ],
+        "id": 1435,
+        "name": "ContractDefinition",
+        "src": "169:84:1"
+      }
+    ],
+    "id": 1436,
+    "name": "SourceUnit",
+    "src": "43:212:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.7.4+commit.3f05b770.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.2",
+  "updatedAt": "2021-08-24T02:10:48.832Z",
+  "devdoc": {
+    "author": "Richard Meissner - <richard@gnosis.pm>",
+    "kind": "dev",
+    "methods": {},
+    "title": "Enum - Collection of enums",
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
